@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CONTACK</title>
+  <title>ABOUT ME</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -21,6 +21,7 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
   </style>
+
 
 </head>
 
@@ -114,10 +115,10 @@
 
         <a href="aboutme.html">
           <div id="home-page"
-            class="bg-[#E1E8EF] transition hover:bg-[#FF9C1A] active:opacity-5 flex items-center justify-center rounded-xl w-[52px] h-[52px]">
+            class="bg-[#FF9C1A] transition hover:bg-[#ffbb61] active:opacity-5 flex items-center justify-center rounded-xl w-[52px] h-[52px]">
             <div>
               <img class="mx-auto" src="img/home2.png" alt="">
-              <p class="text-[10px] text-gray-800">Home</p>
+              <p class="text-[10px] text-white">Home</p>
             </div>
           </div>
         </a>
@@ -134,76 +135,88 @@
 
         <a href="contact.html">
           <div id="contact-page"
-            class="bg-[#FF9C1A] transition hover:bg-[#ffbb61] active:opacity-5 flex items-center justify-center rounded-xl w-[52px] h-[52px]">
+            class="bg-[#E1E8EF] transition hover:bg-[#FF9C1A] active:opacity-5 flex items-center justify-center rounded-xl w-[52px] h-[52px]">
             <div>
               <img class="mx-auto" src="img/contact3.png" alt="">
-              <p class="text-[10px] text-white">Contact</p>
+              <p class="text-[10px] text-gray-800">Contact</p>
             </div>
           </div>
         </a>
       </div>
 
 
-      <!-- main content start -->
+      <!-- main content -->
 
-      <div id="contact" class="w-full h-[95%] md:h-[87%] bg-[#ffffff] rounded-[16px] py-6 px-6 md:px-[3.2rem]">
+      <div id="about-me" class="w-full h-[95%] md:h-[88%] bg-[#ffffff] rounded-[16px] py-6 px-6 md:px-[3.2rem]">
         <div class="lg:flex lg:items-center mb-3 gap-5">
-          <h1 class="font-poppins font-medium text-3xl tracking-wide">Contact</h1>
+          <h1 class="font-poppins font-medium text-3xl tracking-wide">ABOUT ME</h1>
           <div class="h-[2px] w-[100%] lg:w-[30vh] md:w-[100%] bg-[#FF9C1A] rounded-xl"></div>
+        </div>
+
+        <div>
+          <p class="text-[11px] leading-5 font-medium font-raleway">Hello there! I'm thrilled to welcome you to my
+            portfolio. I am a passionate and versatile full-stack developer with a keen interest in exploring the latest
+            cutting-edge technologies. My journey in the world of web development has been nothing short of
+            exhilarating, and I constantly strive to enhance my skills and embrace emerging trends in the industry.</p>
+        </div>
+
+        <div>
+          <h1 class="font-poppins tracking-wide my-4 text-2xl">What I do!</h1>
         </div>
 
         <div class="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-4">
 
-          <div id="phone-number"
-            class="px-5 pt-[5px] pb-[10px] bg-[#FFEBD1] h-full lg:h-[105px] rounded-xl flex justify-start items-center">
-            <div class="flex items-start mb-6 gap-2">
-              <img class="w-[16px] h-[15px] pt-[3px]" src="img/telphone.jpg" alt="email">
-              <div>
-                <p class="text-[12px] font-poppins  font-semibold">Phone</p>
-                <p class="text-[12px] font-poppins">+62856-6981-6902</p>
+          <div id="web-dev"
+            class="px-3 pt-[5px] pb-[10px] bg-[#FFEBD1] h-full lg:h-[140px] rounded-xl flex justify-center items-start">
+            <div>
+              <div class="items-center justify-center flex gap-2">
+                <img class="w-4 h-4" src="img/web dev.png" alt="">
+                <h2 class="font-poppins font-bold text-lg">Web Development</h2>
               </div>
+              <p class="font-poppins text-[10.5px] md:text-[10px] text-justify">As a developer, I find myself most
+                captivated by the power and flexibility of NEXT.js. I'm always eager to dive into new projects that
+                leverage NEXT.js and discover innovative ways to create fast, scalable, and user-friendly applications.
+              </p>
             </div>
           </div>
 
-          <div id="email-address"
-            class="px-5 pt-[5px] pb-[10px] bg-[#F2F7FC] h-full lg:h-[105px] rounded-xl flex justify-start items-center">
-            <div class="flex items-start mb-6 gap-2">
-              <img class="w-[16px] h-[15px] pt-[3px]" src="img/email.jpg" alt="email">
-              <div>
-                <p class="text-[12px] font-poppins  font-semibold">Email</p>
-                <p class="text-[12px] font-poppins">anfa2597@gmail.com</p>
+          <div id="app-dev"
+            class="px-3 pt-[5px] pb-[10px] bg-[#F2F7FC] h-full lg:h-[140px] rounded-xl flex justify-center items-start">
+            <div>
+              <div class="items-center justify-center flex gap-2">
+                <img class="w-4 h-4" src="img/app3.jpg" alt="">
+                <h2 class="font-poppins font-bold text-lg">App Development</h2>
               </div>
+              <p class="font-poppins text-[10.5px] md:text-[10px] text-justify">With a focus on user-centric design and
+                cutting-edge technologies, I thrive on building intuitive and efficient apps that make a positive impact
+                on people's lives. Let's turn ideas into reality and shape the future together.</p>
             </div>
           </div>
-        </div>
 
-        <div id="form-submit" class="w-full p-7 h:full md:h-[60%] bg-[#F2F7FC] rounded-lg mt-6">
-          <form action="">
-            <fieldset>
-              <legend class="font-raleway text-xs mb-5">I am always open to discussing <span class="font-semibold">new
-                  projects, opportunities in tech world, partnerships</span> and more so <span
-                  class="font-semibold">mentorship</span>.</legend>
-
-              <label class="text-sm font-semibold" for="fname">Name:</label>
-              <input class="w-full md:w-[87%] my-3 bg-[#F2F7FC]" type="text" id="fname" name="fname">
-              <hr>
-              <label class="text-sm font-semibold" for="femail">Email:</label>
-              <input class="w-full md:w-[88%] my-3 bg-[#F2F7FC]" type="email" id="femail" name="femail">
-              <hr>
-              <label class="text-sm font-semibold" for="fmessage">Message:</label>
-              <input class="w-full md:w-[82%] my-3 bg-[#F2F7FC]" type="text" id="fmessage" name="fmessage">
-              <hr>
-              <div id="button-submit"
-                class="mt-[20px] h-7 w-[74px] rounded-2xl bg-gradient-to-br from-[#FD8A18] to-[#EE2C0B]">
-                <input
-                  class="text-xs w-[72px] bg-[#F2F7FC] rounded-2xl mx-[1px] py-[4px] border border-solid border-[#F2F7FC] transition hover:bg-transparent hover:text-white active:opacity-5 cursor-pointer"
-                  type="submit" value="Submit">
+          <div id="ui/ux-design"
+            class="px-3 pt-[5px] pb-[10px] md:pt-[14px] bg-[#F2F7FC] h-full lg:h-[140px] rounded-xl flex justify-center items-start">
+            <div>
+              <div class="items-center justify-center flex gap-2">
+                <h2 class="font-poppins font-bold text-lg">UI/UX Designing</h2>
               </div>
-            </fieldset>
-          </form>
+              <p class="font-poppins text-[13px] md:text-[12px] text-justify">Crafting visually appealing and intuitive
+                user interfaces that offer a delightful user experience is something I'm truly fanatic about.</p>
+            </div>
+          </div>
+
+          <div id="mentorship"
+            class="px-3 pt-[5px] pb-[10px] md:pt-[12px] bg-[#FFEBD1] h-full lg:h-[140px] rounded-xl flex justify-center items-start">
+            <div>
+              <div class="items-center justify-center flex gap-2">
+                <h2 class="font-poppins font-bold text-lg">Mentorship</h2>
+              </div>
+              <p class="font-poppins text-[11.3px] md:text-[10.5px] text-justify">I have also found great joy in sharing
+                my knowledge with others. Being a technical mentor allows me to give back to the community that has
+                supported me throughout my career.</p>
+            </div>
+          </div>
+
         </div>
-
-
       </div>
     </section>
   </div>
