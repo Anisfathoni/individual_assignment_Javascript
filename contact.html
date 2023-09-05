@@ -6,18 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CONTACK</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            poppins: "'Poppins', serif",
-            raleway: "'Raleway', serif",
-          },
-        },
-      },
-    }
-  </script>
+
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
   </style>
@@ -180,24 +169,22 @@
         <div id="form-submit" class="w-full p-7 h:full md:h-[60%] bg-[#F2F7FC] rounded-lg mt-6">
           <form action="">
             <fieldset>
-              <legend class="font-raleway text-xs mb-5">I am always open to discussing <span class="font-semibold">new
-                  projects, opportunities in tech world, partnerships</span> and more so <span
-                  class="font-semibold">mentorship</span>.</legend>
+              <h1>MASUK / LOGIN </h1>
 
-              <label class="text-sm font-semibold" for="fname">Name:</label>
-              <input class="w-full md:w-[87%] my-3 bg-[#F2F7FC]" type="text" id="fname" name="fname">
+              <label class="text-sm font-semibold" for="fname" >Name:</label>
+              <input class="w-full md:w-[87%] my-3 bg-[#F2F7FC]" type="text" id="name" name="fname">
               <hr>
-              <label class="text-sm font-semibold" for="femail">Email:</label>
-              <input class="w-full md:w-[88%] my-3 bg-[#F2F7FC]" type="email" id="femail" name="femail">
+              <label class="text-sm font-semibold" for="femail">password:</label>
+              <input class="w-full md:w-[80%] my-3 bg-[#F2F7FC]" type="email" id="password" name="femail">
               <hr>
-              <label class="text-sm font-semibold" for="fmessage">Message:</label>
-              <input class="w-full md:w-[82%] my-3 bg-[#F2F7FC]" type="text" id="fmessage" name="fmessage">
+              <label class="text-sm font-semibold" for="fmessage">Location:</label>
+              <input class="w-full md:w-[82%] my-3 bg-[#F2F7FC]" type="text" id="location" name="fmessage">
               <hr>
               <div id="button-submit"
                 class="mt-[20px] h-7 w-[74px] rounded-2xl bg-gradient-to-br from-[#FD8A18] to-[#EE2C0B]">
                 <input
                   class="text-xs w-[72px] bg-[#F2F7FC] rounded-2xl mx-[1px] py-[4px] border border-solid border-[#F2F7FC] transition hover:bg-transparent hover:text-white active:opacity-5 cursor-pointer"
-                  type="submit" value="Submit">
+                  type="submit" id="btn_submit" value="Submit">
               </div>
             </fieldset>
           </form>
@@ -207,6 +194,8 @@
       </div>
     </section>
   </div>
+
+  <script src="main3.js"></script>
 </body>
 
 </html>
